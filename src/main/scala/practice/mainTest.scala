@@ -25,12 +25,15 @@ object MainTest {
 
     //5、DataFrame Test
     //DataFrameTest.testParquet()
-    DataFrameTest.testUnion()
+    //DataFrameTest.testUnion()
 
     //6、Json Test
     //JsonTest.test()
 
     //6、Rdd Test
     //RddTest.zipTest()
+
+    //7、Parallelize Test
+    ParallelizeTest.computePI()
   }
 }
